@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mani's Wife ❤️</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts">♥　♥　♥　♥　♥</div>
+<section id="loginPage" class="page active"><div class="card login"><div class="heart">❤️</div><h1>Welcome</h1><p>A little place made just for you...</p><label>Mani's Wife</label><input id="username" placeholder="Enter your name"><label>Na unaku yaaru? ❤️</label><input id="password" type="password" placeholder="Enter the answer"><button id="loginBtn">Enter ❤️</button><div id="error"></div><small>Only one person knows the answer... 👀</small></div></section>
+<section id="photoPage" class="page"><div class="card photo"><img id="couplePhoto" class="clickable-photo" src="images/couple.jpg" alt="Mani and Akshaya — tap to continue to the quiz" title="Tap our photo ❤️"><span>ACCESS GRANTED ❤️</span><h2>Ohhh... it's you.</h2><p>Before I let you enter my little world, I have one tiny test for you... 😌</p><p class="tap-hint">Tap our photo ❤️</p><button id="startQuiz">Okay, test me 😏</button></div></section>
+<section id="quizPage" class="page"><div class="card quiz"><span>THE WIFE TEST ❤️</span><h2>Are You Really Mani's Wife?</h2><div class="bar"><i id="progress"></i></div><small id="qn"></small><h3 id="question"></h3><div id="options"></div><p id="quizMsg"></p><button id="next" class="hide">Next ❤️</button></div></section>
+<section id="resultPage" class="page"><div class="card result"><div id="icon">❤️</div><h2 id="resultTitle"></h2><p id="resultText"></p><strong id="score"></strong><button id="retryQuiz" class="hide" type="button">Retry Quiz 🔁</button><button id="continue" type="button">Continue ❤️</button></div></section>
+
+<section id="paymentPage" class="page">
+    <div class="glass payment-card">
+        <div class="heart-logo">💗</div>
+        <p class="eyebrow">ONE LAST LITTLE TEST 👀❤️</p>
+        <h2>If you're truly loving me...</h2>
+        <p class="payment-note">
+            Send me just <strong>₹1</strong> ❤️<br>
+            That's all I ask 😌
+        </p>
+        <button id="makePayment" class="pay-button" type="button">
+            MAKE PAYMENT ❤️
+        </button>
+    </div>
+</section>
+
+<section id="loveRevealPage" class="page">
+    <div class="glass payment-card">
+        <div class="heart-logo">🥹❤️</div>
+        <h2>I KNOW YOU'RE TRULY LOVING ME! ❤️</h2>
+        <p class="payment-note">
+            I knew it from the beginning 😂❤️
+        </p>
+        <button id="goMainPage" class="pay-button" type="button">
+            LET'S GO ❤️
+        </button>
+    </div>
+</section>
+
+<section id="finalPage" class="page main-love-page">
+    <div class="love-world">
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✦</div><div class="sparkle s3">♡</div>
+        <div class="world-heading">
+            <p class="eyebrow">WELCOME TO OUR LITTLE WORLD</p>
+            <h2>Where our story began... ❤️</h2>
+            <p class="world-subtitle">Some conversations become memories. Some memories become everything. 🥹</p>
+        </div>
+
+        <div class="heart-orbit-stage" id="heartOrbit">
+            <div class="heart-ring ring-one"></div>
+            <div class="heart-ring ring-two"></div>
+
+            <div class="orbit-photo" data-index="0"><img src="images/memories/01.jpg" alt="Our memory 1"></div>
+            <div class="orbit-photo" data-index="1"><img src="images/memories/02.jpg" alt="Our memory 2"></div>
+            <div class="orbit-photo" data-index="2"><img src="images/memories/07.jpg" alt="Our memory 3"></div>
+            <div class="orbit-photo" data-index="3"><img src="images/memories/10.jpg" alt="Our memory 4"></div>
+            <div class="orbit-photo" data-index="4"><img src="images/memories/17.jpg" alt="Our memory 5"></div>
+            <div class="orbit-photo" data-index="5"><img src="images/memories/22.jpg" alt="Our memory 6"></div>
+            <div class="orbit-photo" data-index="6"><img src="images/memories/27.jpg" alt="Our memory 7"></div>
+            <div class="orbit-photo" data-index="7"><img src="images/memories/29.jpg" alt="Our memory 8"></div>
+
+            <div class="chat-frame">
+                <div class="chat-topbar"><span class="wa-dot"></span><b>Our First Story ❤️</b><span class="live-dot">●</span></div>
+                <div class="chat-photo-window">
+                    <img id="chatStoryImage" src="images/chat/chat1.png" alt="Our WhatsApp conversation">
+                    <div class="chat-fade"></div>
+                </div>
+                <div class="chat-caption" id="chatCaption">It all started with these little words... 🥹❤️</div>
+                <div class="chat-dots" id="chatDots"><span class="active"></span><span></span><span></span><span></span></div>
+            </div>
+        </div>
+
+        <div class="story-note">
+            <span>20 • 11 • 2025</span>
+            <strong>And somehow... that little conversation became our story. ♾️</strong>
+        </div>
+
+        <button id="startStory" class="story-button" type="button">See More Of Us ❤️</button>
+    </div>
+</section>
+
+<section id="storyPage" class="page memories-page">
+    <div class="memories-wrap camera-film-page">
+        <div class="film-heading">
+            <p class="eyebrow">OUR LITTLE MEMORY FILM 🎞️❤️</p>
+            <h2>More of Us</h2>
+            <p class="world-subtitle">One photo stays in the middle... while the rest of our memories keep rolling like a camera film. 🥹</p>
+        </div>
+
+        <div class="camera-film-window film-window-top" aria-label="Moving camera film above our mirror memory">
+            <div class="film-strip film-strip-top" id="filmStripTop"></div>
+        </div>
+
+        <div class="hero-memory-frame">
+            <div class="hero-memory">
+                <img src="images/memories/03.jpg" alt="Our mirror memory">
+                <span>OUR MIRROR MEMORY ❤️</span>
+            </div>
+        </div>
+
+        <div class="camera-film-window film-window-bottom" aria-label="Moving camera film below our mirror memory">
+            <div class="film-strip film-strip-bottom" id="filmStripBottom"></div>
+        </div>
+
+        <p class="film-caption">One mirror picture stays close to our hearts... while every other memory keeps rolling. ♾️❤️</p>
+        <button id="backToMain" class="story-button" type="button">Back To Our Story ❤️</button>
+    </div>
+</section>
+
+<audio id="mainMusic" preload="auto"><source src="music-main.aac" type="audio/aac"></audio>
+<audio id="memoriesMusic" preload="auto"><source src="music-memories.mpeg" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body></html>
